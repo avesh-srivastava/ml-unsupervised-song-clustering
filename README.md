@@ -57,14 +57,14 @@ The dataset contains various features describing audio characteristics of songs.
    - Correlation heatmaps
    - Pairplots of key audio features
 
-3. **Clustering**
+3. **Dimensionality Reduction**
+   - Applied **PCA** to reduce to 2D space
+   - Visualized clusters with scatter plots
+
+4. **Clustering**
    - Applied **K-Means** clustering algorithm
    - Used **Elbow Method** to identify optimal `k`
    - Evaluated clustering performance visually
-
-4. **Dimensionality Reduction**
-   - Applied **PCA** to reduce to 2D space
-   - Visualized clusters with scatter plots
 
 5. **Result Interpretation**
    - Analyzed characteristics of each cluster
