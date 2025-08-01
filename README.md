@@ -90,10 +90,13 @@ The dataset contains various features describing audio characteristics of songs.
 - Scikit-learn (for clustering and PCA)
 
 ### Run the notebook
+
+```
 > git clone https://github.com/avesh-srivastava/ml-unsupervised-song-clustering.git
 > cd ml-unsupervised-song-clustering
 > pip install -r requirements.txt
 > jupyter notebook notebooks/Cohorts_of_Songs.ipynb
+```
 
 ---
 
@@ -108,7 +111,6 @@ ml-unsupervised-song-clustering/
 │ └──Cohorts_of_Songs.ipynb
 ├── README.md
 └── requirements.txt (optional)
-
 ```
 
 ---
